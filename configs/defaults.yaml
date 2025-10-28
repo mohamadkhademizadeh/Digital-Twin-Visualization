@@ -1,0 +1,7 @@
+sim:
+  duration_min: 240        # total simulated minutes
+  arrival_rate: 0.8        # items per minute
+  process_time_mean: 0.9   # minutes per item
+  qc_fail_prob: 0.05
+  breakdown_mtf: 60        # mean time to failure (min)
+  repair_time_mean: 5
